@@ -2,6 +2,7 @@
 // @name         Trello show card number
 // @namespace    https://github.com/iuhoay/userscripts
 // @version      0.1
+// @license      MIT
 // @description  Trello show card number
 // @author       iuhoay
 // @match        https://trello.com/b/*

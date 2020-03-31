@@ -2,6 +2,7 @@
 // @name         Trello remove background image
 // @namespace    https://github.com/iuhoay/userscripts
 // @version      0.1
+// @license      MIT
 // @description  Remove background image.
 // @author       iuhoay
 // @match        https://trello.com/b/*
