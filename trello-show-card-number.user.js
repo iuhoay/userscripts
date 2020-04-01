@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Trello show card number
 // @namespace    https://github.com/iuhoay/userscripts
-// @version      1.0.0
+// @version      1.0.1
 // @license      MIT
 // @description  Trello show card number
 // @author       iuhoay
@@ -12,5 +12,5 @@
 (function () {
   'use strict';
 
-  GM_addStyle(".card-short-id { display: inline-block; color: 'red'; margin-right: .5rem;}")
+  GM_addStyle(".card-short-id { display: inline-block; color: red; margin-right: .5rem;}")
 })();
