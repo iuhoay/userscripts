@@ -1,29 +1,16 @@
 // ==UserScript==
 // @name         Trello cover hide
 // @namespace    https://github.com/iuhoay/userscripts
-// @version      0.1
+// @version      1.0.0
 // @license      MIT
 // @description  Hidden list cover
 // @author       iuhoay
 // @match        https://trello.com/b/*
+// @grant        GM_addStyle
 // ==/UserScript==
 
 (function() {
   'use strict';
 
-
-  // Your code here...
-  function removeCover() {
-    var covers = document.querySelectorAll('.list-card-cover');
-
-    covers.forEach(cover => {
-      cover.classList.add('hide');
-    })
-  }
-
-  function init() {
-    removeCover();
-  }
-
-  setInterval(init, 500);
+  GM_addStyle(".list-card-cover { display: none;}")
 })();
